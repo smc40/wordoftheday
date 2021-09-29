@@ -1,7 +1,7 @@
 # Taken from https://www.section.io/engineering-education/how-to-deploy-streamlit-app-with-docker/
 
 # Firstly we define our base image where we want to build our file from, as demostrated below.
-FROM python:3.9
+FROM python:3.8
 
 # Create a working directory
 WORKDIR ./app
